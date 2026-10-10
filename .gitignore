@@ -27,3 +27,13 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# IDE
+.idea/
+*.iml
+
+# Google API credentials / tokens: never commit (KEY.md is kept)
+keys/*.json
+
+# Packaged output (make dist)
+dist/
